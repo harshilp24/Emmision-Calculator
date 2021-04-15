@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             }
         });
 
-        Places.initialize(getApplicationContext(), "AIzaSyCEn7E1Sp9SLquexRacH0LakE4r1mD3-8U");
+        Places.initialize(getApplicationContext(), "YOUR API KEY");
 
         edtstart.setFocusable(false);
         edtstart.setOnClickListener(new View.OnClickListener() {
